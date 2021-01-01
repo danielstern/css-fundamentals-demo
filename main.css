@@ -1,15 +1,35 @@
-div {
-    
-    border: 1px solid black;
+body {
+    background-color: #cb4154; /* brick red */
+}
+
+#Header,
+#Navigation,
+#News,
+#Footer {
+
+    background-color: skyblue;
+    color: #111;
+    border: 10px solid lightblue;
 
 }
 
 #Header {
 
     width: 400px;
-    height: 200px;
+    /* height: 200px; */
     padding: 20px;
 
+}
+
+#Header h1 {
+
+    font-size: 40;
+}
+
+#Header .highlight {
+
+    color: goldenrod;
+    /* font-weight: bolder; */
 }
 
 #Navigation {
@@ -19,6 +39,28 @@ div {
     padding: 2%;
     margin-top: 20px;
     margin-bottom: 20px;
+    text-align: center;
+    
+    
+}
+
+#Navigation ul {
+
+    padding: 0;
+}
+
+#Navigation li {
+
+    list-style: none;
+    margin-bottom: 1rem;
+    font-size: 26;
+    text-transform: uppercase;
+
+}
+
+#Navigation a {
+
+    color: darkblue;
 }
 
 #News {
